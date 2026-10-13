@@ -1,0 +1,13 @@
+{
+  "name": "ridgeline-outfitters-template",
+  "version": "1.0.0",
+  "description": "Ridgeline Outfitters — hunting gear & outdoor sports store HTML template (Tailwind CSS, vanilla JS).",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/css/style.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
